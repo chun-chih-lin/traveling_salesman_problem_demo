@@ -1,0 +1,21 @@
+{
+  "optimal_length": 27.297558,
+  "tour_vertex_order_one_based": [
+    1,
+    5,
+    4,
+    2,
+    7,
+    6,
+    3
+  ],
+  "tour_vertex_order_zero_based": [
+    0,
+    4,
+    3,
+    1,
+    6,
+    5,
+    2
+  ]
+}

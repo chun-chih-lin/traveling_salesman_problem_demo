@@ -1,0 +1,93 @@
+{
+  "source_file": "images\\tsp_routes.json",
+  "start_node_id": 4,
+  "final_path_one_based": [
+    4,
+    3,
+    5,
+    1,
+    6,
+    2,
+    4
+  ],
+  "total_distance": 25.058648,
+  "optimal_distance": 22.230992,
+  "steps": [
+    {
+      "from": 4,
+      "to": 3,
+      "step_distance": 0.615558,
+      "cumulative_distance": 0.615558,
+      "path_so_far": [
+        4,
+        3
+      ]
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "step_distance": 3.569519,
+      "cumulative_distance": 4.185077,
+      "path_so_far": [
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "from": 5,
+      "to": 1,
+      "step_distance": 6.451172,
+      "cumulative_distance": 10.636249,
+      "path_so_far": [
+        4,
+        3,
+        5,
+        1
+      ]
+    },
+    {
+      "from": 1,
+      "to": 6,
+      "step_distance": 2.255847,
+      "cumulative_distance": 12.892096,
+      "path_so_far": [
+        4,
+        3,
+        5,
+        1,
+        6
+      ]
+    },
+    {
+      "from": 6,
+      "to": 2,
+      "step_distance": 4.609811,
+      "cumulative_distance": 17.501907,
+      "path_so_far": [
+        4,
+        3,
+        5,
+        1,
+        6,
+        2
+      ]
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "step_distance": 7.556741,
+      "cumulative_distance": 25.058648,
+      "path_so_far": [
+        4,
+        3,
+        5,
+        1,
+        6,
+        2,
+        4
+      ],
+      "is_return_to_start": true
+    }
+  ]
+}

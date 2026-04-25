@@ -1,0 +1,211 @@
+{
+  "source_file": "images\\tsp_routes.json",
+  "optimal_distance": 22.230992,
+  "final_edge_count": 6,
+  "final_edges": [
+    {
+      "u": 3,
+      "v": 4,
+      "distance": 0.615558
+    },
+    {
+      "u": 1,
+      "v": 6,
+      "distance": 2.255847
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "distance": 3.087764
+    },
+    {
+      "u": 4,
+      "v": 5,
+      "distance": 3.568759
+    },
+    {
+      "u": 3,
+      "v": 6,
+      "distance": 4.376293
+    },
+    {
+      "u": 2,
+      "v": 5,
+      "distance": 9.232567
+    }
+  ],
+  "total_distance": 23.136789,
+  "steps": [
+    {
+      "step": 1,
+      "added_edge": {
+        "u": 3,
+        "v": 4,
+        "distance": 0.615558
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        }
+      ],
+      "cumulative_distance": 0.615558
+    },
+    {
+      "step": 2,
+      "added_edge": {
+        "u": 1,
+        "v": 6,
+        "distance": 2.255847
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "distance": 2.255847
+        }
+      ],
+      "cumulative_distance": 2.871405
+    },
+    {
+      "step": 3,
+      "added_edge": {
+        "u": 1,
+        "v": 2,
+        "distance": 3.087764
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "distance": 2.255847
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "distance": 3.087764
+        }
+      ],
+      "cumulative_distance": 5.959169
+    },
+    {
+      "step": 4,
+      "added_edge": {
+        "u": 4,
+        "v": 5,
+        "distance": 3.568759
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "distance": 2.255847
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "distance": 3.087764
+        },
+        {
+          "u": 4,
+          "v": 5,
+          "distance": 3.568759
+        }
+      ],
+      "cumulative_distance": 9.527929
+    },
+    {
+      "step": 5,
+      "added_edge": {
+        "u": 3,
+        "v": 6,
+        "distance": 4.376293
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "distance": 2.255847
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "distance": 3.087764
+        },
+        {
+          "u": 4,
+          "v": 5,
+          "distance": 3.568759
+        },
+        {
+          "u": 3,
+          "v": 6,
+          "distance": 4.376293
+        }
+      ],
+      "cumulative_distance": 13.904222
+    },
+    {
+      "step": 6,
+      "added_edge": {
+        "u": 2,
+        "v": 5,
+        "distance": 9.232567
+      },
+      "selected_edges": [
+        {
+          "u": 3,
+          "v": 4,
+          "distance": 0.615558
+        },
+        {
+          "u": 1,
+          "v": 6,
+          "distance": 2.255847
+        },
+        {
+          "u": 1,
+          "v": 2,
+          "distance": 3.087764
+        },
+        {
+          "u": 4,
+          "v": 5,
+          "distance": 3.568759
+        },
+        {
+          "u": 3,
+          "v": 6,
+          "distance": 4.376293
+        },
+        {
+          "u": 2,
+          "v": 5,
+          "distance": 9.232567
+        }
+      ],
+      "cumulative_distance": 23.136789
+    }
+  ]
+}

@@ -1,0 +1,1417 @@
+{
+  "points": [
+    {
+      "id": 1,
+      "x": 6.3709092034390356,
+      "y": 7.04183023998562
+    },
+    {
+      "id": 2,
+      "x": 8.145691854708272,
+      "y": 9.568574253428192
+    },
+    {
+      "id": 3,
+      "x": 3.6221298843022467,
+      "y": 2.7766587187203817
+    },
+    {
+      "id": 4,
+      "x": 3.8609502335702017,
+      "y": 3.3440001505794212
+    },
+    {
+      "id": 5,
+      "x": 0.46593568484644576,
+      "y": 4.443963509909825
+    },
+    {
+      "id": 6,
+      "x": 7.37781041982962,
+      "y": 5.0231682933290225
+    }
+  ],
+  "route_count": 60,
+  "routes": [
+    {
+      "index": 1,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 24.624466,
+      "image_file": "tsp_tour_001.png"
+    },
+    {
+      "index": 2,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 29.148199,
+      "image_file": "tsp_tour_002.png"
+    },
+    {
+      "index": 3,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 24.539494,
+      "image_file": "tsp_tour_003.png"
+    },
+    {
+      "index": 4,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        1
+      ],
+      "total_distance": 30.120198,
+      "image_file": "tsp_tour_004.png"
+    },
+    {
+      "index": 5,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        6,
+        4,
+        5,
+        1
+      ],
+      "total_distance": 29.541593,
+      "image_file": "tsp_tour_005.png"
+    },
+    {
+      "index": 6,
+      "topology_zero_based": [
+        0,
+        1,
+        2,
+        5,
+        4,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        3,
+        6,
+        5,
+        4,
+        1
+      ],
+      "total_distance": 30.598565,
+      "image_file": "tsp_tour_006.png"
+    },
+    {
+      "index": 7,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        3,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 24.02153,
+      "image_file": "tsp_tour_007.png"
+    },
+    {
+      "index": 8,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        3,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 29.023629,
+      "image_file": "tsp_tour_008.png"
+    },
+    {
+      "index": 9,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        5,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 24.414924,
+      "image_file": "tsp_tour_009.png"
+    },
+    {
+      "index": 10,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        3,
+        1
+      ],
+      "total_distance": 30.599855,
+      "image_file": "tsp_tour_010.png"
+    },
+    {
+      "index": 11,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        6,
+        3,
+        5,
+        1
+      ],
+      "total_distance": 28.938657,
+      "image_file": "tsp_tour_011.png"
+    },
+    {
+      "index": 12,
+      "topology_zero_based": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        4,
+        6,
+        5,
+        3,
+        1
+      ],
+      "total_distance": 30.121489,
+      "image_file": "tsp_tour_012.png"
+    },
+    {
+      "index": 13,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 22.658422,
+      "image_file": "tsp_tour_013.png"
+    },
+    {
+      "index": 14,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        2,
+        5,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        3,
+        6,
+        4,
+        1
+      ],
+      "total_distance": 28.632521,
+      "image_file": "tsp_tour_014.png"
+    },
+    {
+      "index": 15,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        4,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 23.136789,
+      "image_file": "tsp_tour_015.png"
+    },
+    {
+      "index": 16,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        4,
+        6,
+        3,
+        1
+      ],
+      "total_distance": 29.236748,
+      "image_file": "tsp_tour_016.png"
+    },
+    {
+      "index": 17,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        6,
+        3,
+        4,
+        1
+      ],
+      "total_distance": 28.717493,
+      "image_file": "tsp_tour_017.png"
+    },
+    {
+      "index": 18,
+      "topology_zero_based": [
+        0,
+        1,
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        5,
+        6,
+        4,
+        3,
+        1
+      ],
+      "total_distance": 28.843354,
+      "image_file": "tsp_tour_018.png"
+    },
+    {
+      "index": 19,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        2,
+        3,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        3,
+        4,
+        5,
+        1
+      ],
+      "total_distance": 22.709358,
+      "image_file": "tsp_tour_019.png"
+    },
+    {
+      "index": 20,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        3,
+        5,
+        4,
+        1
+      ],
+      "total_distance": 23.681357,
+      "image_file": "tsp_tour_020.png"
+    },
+    {
+      "index": 21,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        3,
+        2,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        4,
+        3,
+        5,
+        1
+      ],
+      "total_distance": 22.230992,
+      "image_file": "tsp_tour_021.png"
+    },
+    {
+      "index": 22,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        4,
+        5,
+        3,
+        1
+      ],
+      "total_distance": 23.807218,
+      "image_file": "tsp_tour_022.png"
+    },
+    {
+      "index": 23,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        4,
+        2,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        5,
+        3,
+        4,
+        1
+      ],
+      "total_distance": 23.287963,
+      "image_file": "tsp_tour_023.png"
+    },
+    {
+      "index": 24,
+      "topology_zero_based": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        2,
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      "total_distance": 23.89219,
+      "image_file": "tsp_tour_024.png"
+    },
+    {
+      "index": 25,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 33.552082,
+      "image_file": "tsp_tour_025.png"
+    },
+    {
+      "index": 26,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        3,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        4,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 38.075815,
+      "image_file": "tsp_tour_026.png"
+    },
+    {
+      "index": 27,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 32.188974,
+      "image_file": "tsp_tour_027.png"
+    },
+    {
+      "index": 28,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        5,
+        6,
+        4,
+        1
+      ],
+      "total_distance": 37.769679,
+      "image_file": "tsp_tour_028.png"
+    },
+    {
+      "index": 29,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        5,
+        3,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        6,
+        4,
+        5,
+        1
+      ],
+      "total_distance": 31.761544,
+      "image_file": "tsp_tour_029.png"
+    },
+    {
+      "index": 30,
+      "topology_zero_based": [
+        0,
+        2,
+        1,
+        5,
+        4,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        2,
+        6,
+        5,
+        4,
+        1
+      ],
+      "total_distance": 32.818515,
+      "image_file": "tsp_tour_030.png"
+    },
+    {
+      "index": 31,
+      "topology_zero_based": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 31.67101,
+      "image_file": "tsp_tour_031.png"
+    },
+    {
+      "index": 32,
+      "topology_zero_based": [
+        0,
+        2,
+        3,
+        1,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        4,
+        2,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 31.24358,
+      "image_file": "tsp_tour_032.png"
+    },
+    {
+      "index": 33,
+      "topology_zero_based": [
+        0,
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        4,
+        5,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 25.356739,
+      "image_file": "tsp_tour_033.png"
+    },
+    {
+      "index": 34,
+      "topology_zero_based": [
+        0,
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        4,
+        6,
+        2,
+        5,
+        1
+      ],
+      "total_distance": 29.880472,
+      "image_file": "tsp_tour_034.png"
+    },
+    {
+      "index": 35,
+      "topology_zero_based": [
+        0,
+        2,
+        4,
+        1,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 31.586038,
+      "image_file": "tsp_tour_035.png"
+    },
+    {
+      "index": 36,
+      "topology_zero_based": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        5,
+        2,
+        6,
+        4,
+        1
+      ],
+      "total_distance": 30.852471,
+      "image_file": "tsp_tour_036.png"
+    },
+    {
+      "index": 37,
+      "topology_zero_based": [
+        0,
+        2,
+        4,
+        3,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        5,
+        4,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 26.634875,
+      "image_file": "tsp_tour_037.png"
+    },
+    {
+      "index": 38,
+      "topology_zero_based": [
+        0,
+        2,
+        4,
+        5,
+        1,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        5,
+        6,
+        2,
+        4,
+        1
+      ],
+      "total_distance": 32.215579,
+      "image_file": "tsp_tour_038.png"
+    },
+    {
+      "index": 39,
+      "topology_zero_based": [
+        0,
+        2,
+        5,
+        1,
+        3,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        6,
+        2,
+        4,
+        5,
+        1
+      ],
+      "total_distance": 31.636974,
+      "image_file": "tsp_tour_039.png"
+    },
+    {
+      "index": 40,
+      "topology_zero_based": [
+        0,
+        2,
+        5,
+        1,
+        4,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        6,
+        2,
+        5,
+        4,
+        1
+      ],
+      "total_distance": 31.330838,
+      "image_file": "tsp_tour_040.png"
+    },
+    {
+      "index": 41,
+      "topology_zero_based": [
+        0,
+        2,
+        5,
+        3,
+        1,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        6,
+        4,
+        2,
+        5,
+        1
+      ],
+      "total_distance": 36.588137,
+      "image_file": "tsp_tour_041.png"
+    },
+    {
+      "index": 42,
+      "topology_zero_based": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        3,
+        6,
+        5,
+        2,
+        4,
+        1
+      ],
+      "total_distance": 37.645109,
+      "image_file": "tsp_tour_042.png"
+    },
+    {
+      "index": 43,
+      "topology_zero_based": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        2,
+        3,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 32.947855,
+      "image_file": "tsp_tour_043.png"
+    },
+    {
+      "index": 44,
+      "topology_zero_based": [
+        0,
+        3,
+        1,
+        2,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        2,
+        3,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 37.949954,
+      "image_file": "tsp_tour_044.png"
+    },
+    {
+      "index": 45,
+      "topology_zero_based": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        2,
+        5,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 31.460178,
+      "image_file": "tsp_tour_045.png"
+    },
+    {
+      "index": 46,
+      "topology_zero_based": [
+        0,
+        3,
+        1,
+        5,
+        2,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        2,
+        6,
+        3,
+        5,
+        1
+      ],
+      "total_distance": 31.032747,
+      "image_file": "tsp_tour_046.png"
+    },
+    {
+      "index": 47,
+      "topology_zero_based": [
+        0,
+        3,
+        2,
+        1,
+        4,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        3,
+        2,
+        5,
+        6,
+        1
+      ],
+      "total_distance": 31.66972,
+      "image_file": "tsp_tour_047.png"
+    },
+    {
+      "index": 48,
+      "topology_zero_based": [
+        0,
+        3,
+        2,
+        1,
+        5,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        3,
+        2,
+        6,
+        5,
+        1
+      ],
+      "total_distance": 31.242289,
+      "image_file": "tsp_tour_048.png"
+    },
+    {
+      "index": 49,
+      "topology_zero_based": [
+        0,
+        3,
+        2,
+        4,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        3,
+        5,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 24.752512,
+      "image_file": "tsp_tour_049.png"
+    },
+    {
+      "index": 50,
+      "topology_zero_based": [
+        0,
+        3,
+        2,
+        5,
+        1,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        3,
+        6,
+        2,
+        5,
+        1
+      ],
+      "total_distance": 29.754611,
+      "image_file": "tsp_tour_050.png"
+    },
+    {
+      "index": 51,
+      "topology_zero_based": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        5,
+        2,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 32.063114,
+      "image_file": "tsp_tour_051.png"
+    },
+    {
+      "index": 52,
+      "topology_zero_based": [
+        0,
+        3,
+        4,
+        2,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 26.633584,
+      "image_file": "tsp_tour_052.png"
+    },
+    {
+      "index": 53,
+      "topology_zero_based": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        6,
+        2,
+        3,
+        5,
+        1
+      ],
+      "total_distance": 31.157317,
+      "image_file": "tsp_tour_053.png"
+    },
+    {
+      "index": 54,
+      "topology_zero_based": [
+        0,
+        3,
+        5,
+        2,
+        1,
+        4,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        4,
+        6,
+        3,
+        2,
+        5,
+        1
+      ],
+      "total_distance": 36.586847,
+      "image_file": "tsp_tour_054.png"
+    },
+    {
+      "index": 55,
+      "topology_zero_based": [
+        0,
+        4,
+        1,
+        2,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        2,
+        3,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 30.612748,
+      "image_file": "tsp_tour_055.png"
+    },
+    {
+      "index": 56,
+      "topology_zero_based": [
+        0,
+        4,
+        1,
+        3,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        2,
+        4,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 30.488178,
+      "image_file": "tsp_tour_056.png"
+    },
+    {
+      "index": 57,
+      "topology_zero_based": [
+        0,
+        4,
+        2,
+        1,
+        3,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        3,
+        2,
+        4,
+        6,
+        1
+      ],
+      "total_distance": 31.890883,
+      "image_file": "tsp_tour_057.png"
+    },
+    {
+      "index": 58,
+      "topology_zero_based": [
+        0,
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 25.058648,
+      "image_file": "tsp_tour_058.png"
+    },
+    {
+      "index": 59,
+      "topology_zero_based": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        4,
+        2,
+        3,
+        6,
+        1
+      ],
+      "total_distance": 32.36925,
+      "image_file": "tsp_tour_059.png"
+    },
+    {
+      "index": 60,
+      "topology_zero_based": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5,
+        0
+      ],
+      "topology_one_based": [
+        1,
+        5,
+        4,
+        3,
+        2,
+        6,
+        1
+      ],
+      "total_distance": 25.661584,
+      "image_file": "tsp_tour_060.png"
+    }
+  ]
+}

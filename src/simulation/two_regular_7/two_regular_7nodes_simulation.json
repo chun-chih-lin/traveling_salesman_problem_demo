@@ -1,0 +1,237 @@
+{
+  "node_count": 7,
+  "output_folder": "simulation/two_regular_7",
+  "description": "Single Hamiltonian cycle on all nodes: a random permutation defines the circle; each node has exactly two incident edges on that one loop.",
+  "positions": [
+    {
+      "id": 1,
+      "x": 8.446882,
+      "y": 6.626494
+    },
+    {
+      "id": 2,
+      "x": 2.945766,
+      "y": 0.502034
+    },
+    {
+      "id": 3,
+      "x": 6.939773,
+      "y": 8.172923
+    },
+    {
+      "id": 4,
+      "x": 4.414946,
+      "y": 1.653926
+    },
+    {
+      "id": 5,
+      "x": 4.462889,
+      "y": 5.377183
+    },
+    {
+      "id": 6,
+      "x": 1.504526,
+      "y": 9.221571
+    },
+    {
+      "id": 7,
+      "x": 1.615277,
+      "y": 0.736283
+    }
+  ],
+  "edges": [
+    {
+      "u": 4,
+      "v": 5
+    },
+    {
+      "u": 5,
+      "v": 6
+    },
+    {
+      "u": 1,
+      "v": 6
+    },
+    {
+      "u": 1,
+      "v": 2
+    },
+    {
+      "u": 2,
+      "v": 3
+    },
+    {
+      "u": 3,
+      "v": 7
+    },
+    {
+      "u": 4,
+      "v": 7
+    }
+  ],
+  "edge_count": 7,
+  "cycles": [
+    [
+      1,
+      6,
+      5,
+      4,
+      7,
+      3,
+      2
+    ]
+  ],
+  "construction_log": [
+    {
+      "step": 1,
+      "u": 4,
+      "v": 5
+    },
+    {
+      "step": 2,
+      "u": 5,
+      "v": 6
+    },
+    {
+      "step": 3,
+      "u": 1,
+      "v": 6
+    },
+    {
+      "step": 4,
+      "u": 1,
+      "v": 2
+    },
+    {
+      "step": 5,
+      "u": 2,
+      "v": 3
+    },
+    {
+      "step": 6,
+      "u": 3,
+      "v": 7
+    },
+    {
+      "step": 7,
+      "u": 4,
+      "v": 7
+    }
+  ],
+  "two_opt": [
+    {
+      "cycle_index": 1,
+      "node_ids": [
+        1,
+        6,
+        5,
+        4,
+        7,
+        3,
+        2
+      ],
+      "initial_length": 44.959183,
+      "final_length": 27.610284,
+      "step_count": 4,
+      "final_tour": [
+        1,
+        4,
+        2,
+        7,
+        5,
+        6,
+        3
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "i": 4,
+          "k": 6,
+          "delta": -13.868272,
+          "tour_after": [
+            1,
+            6,
+            5,
+            4,
+            7,
+            2,
+            3
+          ],
+          "length_after": 31.090911
+        },
+        {
+          "step": 2,
+          "i": 0,
+          "k": 5,
+          "delta": -2.292101,
+          "tour_after": [
+            1,
+            2,
+            7,
+            4,
+            5,
+            6,
+            3
+          ],
+          "length_after": 28.79881
+        },
+        {
+          "step": 3,
+          "i": 0,
+          "k": 3,
+          "delta": -0.44835,
+          "tour_after": [
+            1,
+            4,
+            7,
+            2,
+            5,
+            6,
+            3
+          ],
+          "length_after": 28.35046
+        },
+        {
+          "step": 4,
+          "i": 1,
+          "k": 3,
+          "delta": -0.740176,
+          "tour_after": [
+            1,
+            4,
+            2,
+            7,
+            5,
+            6,
+            3
+          ],
+          "length_after": 27.610284
+        }
+      ]
+    }
+  ],
+  "two_regular_total_edge_length": 44.959183,
+  "tsp_optimal": {
+    "optimal_length": 27.297558,
+    "tour_vertex_order_one_based": [
+      1,
+      5,
+      4,
+      2,
+      7,
+      6,
+      3
+    ],
+    "tour_vertex_order_zero_based": [
+      0,
+      4,
+      3,
+      1,
+      6,
+      5,
+      2
+    ],
+    "output_png": "simulation\\two_regular_7\\two_opt_steps\\cycle_01\\tsp_optimal.png",
+    "output_json": "simulation\\two_regular_7\\two_opt_steps\\cycle_01\\tsp_optimal.json"
+  }
+}
